@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Get animal">
+      <div class="slds-m-around_medium">
+        <lightning-input label = "Minimum ID" type = "number" onchange={changeHandler} name="minExtId" ></lightning-input>
+        <lightning-input label = "Maximum ID" type = "number"  onchange={changeHandler} name="maxExtId"></lightning-input>
+      </div>
+      <div class="slds-m-around_medium">
+        <lightning-button label="Get"  onclick = {handleClick}> </lightning-button>
+      </div>
+    </lightning-card>
+</template>
