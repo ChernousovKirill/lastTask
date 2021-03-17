@@ -1,0 +1,14 @@
+<template>
+     <div class="slds-m-around_medium">
+            <lightning-button label="Create Animal"  onclick = {createAnimal} > </lightning-button>
+        </div>
+      
+        <div class="slds-m-around_medium">
+            <lightning-datatable
+            key-field="Id"
+            data={animals}
+            columns={columns}
+            >
+            </lightning-datatable>    
+     </div>
+</template>
